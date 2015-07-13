@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><title>Preguntas</title>
+    <link rel='stylesheet' type='text/css' href='/stylesheets/style.css' />
+    <link rel='stylesheet' 
+          type='text/css'
+          media='only screan and (min-width: 530px) and (min.device-width: 481px)'
+          href='/stylesheets/wide.css' />
+    <link rel='stylesheet'
+          type='text/css'
+          media='only screan and (max-width: 480px)'
+          href='/stylesheets/smartphone.css'/>
+  </head>
+  <body>
+    <div id="page-wrap">
+      <header class="main" id="h1">
+        <h2>Quiz_ el juego de las preguntas</h2>
+      </header>
+
+      <nav class="main" id="f1" role="navigation">
+        <sapn><a href="/">Inicio</a></sapn>
+        <span><a href="/quizes/question">Preguntas</a></span>
+      </nav>
+
+      <section class="main" id="f1">
+        <%- body %>
+      </section>
+      <footer class="main" id="f1">
+        <a href="/author">Sobre el autor</a>
+        <a href="https://github.com/franJgr/proyectoQuiz.git" >
+          Proyecto Quiz en Github
+        </a>
+      </footer>
+
+    </div>
+  </body>
+</html>
